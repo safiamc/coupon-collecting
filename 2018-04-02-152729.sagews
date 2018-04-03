@@ -1,5 +1,4 @@
-︠8eaadc54-27b7-4e8a-b09c-f49655804084r︠
-#coupon collector simulation
+︠#coupon collector simulation
 import random
 from sage.plot.histogram import Histogram
 def nbought(N):
@@ -11,14 +10,3 @@ def nbought(N):
             return(k)
 
 histogram([nbought(10) for i in range(10000)],bins=50);
-︡84f04d49-00a0-44a1-af1f-2f54eb2c9ce6︡
-︠c8c5eeea-ceee-48bd-a2ec-fd12b051dea1︠
-
-
-
-
-
-
-
-
-
